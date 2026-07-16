@@ -9,13 +9,10 @@ lass Solution {
                 digits++;
                 num /= 10;
             }
-            
-            
             if (digits % 2 == 0) {
                 evenDigitCount++;
             }
         }
-        
         return evenDigitCount;
     }
 }
