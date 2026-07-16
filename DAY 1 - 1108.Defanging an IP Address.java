@@ -5,7 +5,7 @@ class Solution {
             if (c == '.') {
                 sb.append("[.]");
             } else {
-                sb.append(c);
+            sb.append(c);
             }
         }
         return sb.toString();
