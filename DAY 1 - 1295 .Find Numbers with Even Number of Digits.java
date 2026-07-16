@@ -7,7 +7,7 @@ lass Solution {
             int digits = 0;
             while (num > 0) {
                 digits++;
-                num /= 10;
+            num /= 10;
             }
             if (digits % 2 == 0) {
                 evenDigitCount++;
