@@ -4,9 +4,9 @@ class Solution {
 
         while (node != null && node.next != null) {
             if (node.val == node.next.val) {
-                node.next = node.next.next; // skip the duplicate
+                node.next = node.next.next; 
             } else {
-                node = node.next; // move ahead
+                node = node.next; 
             }
         }
 
